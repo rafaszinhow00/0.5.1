@@ -1,0 +1,84 @@
+# 0.5.1
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+nav {
+    height: 30px;
+    text-align: center;
+}
+
+.div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pendentes {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #8fd14f;
+    border-radius: 5px;
+    background-color: #8fd14f;
+    color: white;
+}
+
+.concluidos {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #0ca789;
+    border-radius: 5px;
+    background-color: #0ca789;
+    color: white;
+}
+
+.excluidos {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #EB4045;
+    border-radius: 5px;
+    background-color: #EB4045;
+    color: white;
+}
+
+p:nth-child(even) {
+    background-color: #8fd14f;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #8fd14f;
+    border-radius: 5px;
+}
+
+p:nth-child(odd) {
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    border: 1px solid #8fd14f;
+    border-radius: 5px;
+}
+
+p:hover {
+    transform: scale(1.1);  
+}
+
+.pcon {
+    border: 5px solid #0ca789;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    width: 50%;
+    margin: 0 auto;
+    color: #0ca789;
+}
